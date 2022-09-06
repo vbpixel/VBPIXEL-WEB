@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <!-- Name: Youplay - Game Template based on Bootstrap Modified By Skypixel Server (PAID) -->
 <html>
-  
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>VBPIXEL - 一个新时代的我的世界,服务器进步从未停滞丨我的世界服务器丨Minecraft服务器</title>
-    <meta name="keywords" content="我的世界服务器,Minecraft服务器,我的世界,Minecraft,Minecraft联机,VBPIXEL">
-    <meta name="description" content="VBPIXEL是一个小型公益类服务器,只接受无条件赞助,任何玩家都是平等的,让玩家享受最公平的游戏环境!">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='static/css/css-Lato300400700.css' rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/youplay.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/custom.css">
-    <link rel="stylesheet" href="static/css/clip.css"></head>
-	<link rel="shortcut icon" href="vbpixel.ico">
-  <style type="text/css">.preloaderbtn{ text-align: center; border-radius: 20px; width: 300px; height: 350px; margin: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; }</style>
-  
-  <body>
-    <!-- Preloader -->
-    <!-- <div id="preloader" class="page-preloader preloader-wrapp">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>VBPIXEL - 一个新时代的我的世界,服务器进步从未停滞丨我的世界服务器丨Minecraft服务器</title>
+  <meta name="keywords" content="我的世界服务器,Minecraft服务器,我的世界,Minecraft,Minecraft联机,VBPIXEL">
+  <meta name="description" content="VBPIXEL是一个小型公益类服务器,只接受无条件赞助,任何玩家都是平等的,让玩家享受最公平的游戏环境!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='static/css/css-Lato300400700.css' rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/youplay.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/custom.css">
+  <link rel="stylesheet" href="static/css/clip.css">
+</head>
+<link rel="shortcut icon" href="vbpixel.ico">
+<style type="text/css">
+  .preloaderbtn {
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+</style>
+
+<body>
+  <!-- Preloader -->
+  <!-- <div id="preloader" class="page-preloader preloader-wrapp">
     <img src="assets/images/logo.png" alt="">
     <div class="preloader"></div>
     <div class="preloaderbtn"><button class="btn btn-lg" onclick="HidePreloader()">关闭</button></div></div>
@@ -31,291 +45,319 @@
     }
     </script>
     -->
-    <!-- /Preloader -->
-    <script type="text/javascript">document.body.onfocus = function() {
-        document.title = "VBPIXEL - 一个新时代的我的世界,服务器进步从未停滞丨我的世界服务器丨Minecraft服务器丨Minecraft联机丨我的世界联机"
-      };
-      document.body.onblur = function() {
-        document.title = "发呆- ( ゜- ゜)つロ"
-      };</script>
-    <style>.alert { padding: 20px; color: white; } .closebtn { margin-left: 15px; color: white; font-weight: bold; float: right; font-size: 22px; line-height: 20px; cursor: pointer; transition: 0.3s; } .closebtn:hover { color: black; }</style>
-    <!-- Navbar -->
-    <nav class="navbar-youplay navbar navbar-default navbar-fixed-top ">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">
+  <!-- /Preloader -->
+  <script type="text/javascript">document.body.onfocus = function () {
+      document.title = "VBPIXEL - 一个新时代的我的世界,服务器进步从未停滞丨我的世界服务器丨Minecraft服务器丨Minecraft联机丨我的世界联机"
+    };
+    document.body.onblur = function () {
+      document.title = "发呆- ( ゜- ゜)つロ"
+    };</script>
+  <style>
+    .alert {
+      padding: 20px;
+      color: white;
+    }
+
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .closebtn:hover {
+      color: black;
+    }
+  </style>
+  <!-- Navbar -->
+  <nav class="navbar-youplay navbar navbar-default navbar-fixed-top ">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown dropdown-hover">
+            <a href="" class="dropdown-toggle" role="button" aria-expanded="false">主页
+              <span class="label"></span></a>
+          </li>
+          <li class="dropdown dropdown-hover">
+            <a href="https://afdian.net/a/MCVBPIXEL" class="dropdown-toggle" role="button" aria-expanded="false">服务器捐赠
+              <span class="label"></span></a>
+          </li>
+          <li class="dropdown dropdown-hover">
+            <a href="http://bbs.jddjdh.top" class="dropdown-toggle" role="button" aria-expanded="false">论坛
+              <span class="label"></span></a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown dropdown-hover dropdown-cart">
+            <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <i class="glyphicon glyphicon-globe"></i>
             </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="dropdown dropdown-hover">
-              <a href="" class="dropdown-toggle" role="button" aria-expanded="false">主页
-                <span class="label"></span></a>
-            </li>
-            <li class="dropdown dropdown-hover">
-              <a href="https://afdian.net/a/MCVBPIXEL" class="dropdown-toggle" role="button" aria-expanded="false">服务器捐赠
-                <span class="label"></span></a>
-            </li>
-	     <li class="dropdown dropdown-hover">
-              <a href="http://bbs.jddjdh.top" class="dropdown-toggle" role="button" aria-expanded="false">论坛
-                <span class="label"></span></a>
-            </li>
-           </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown dropdown-hover">
-              <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
-              <div class="dropdown-menu">
-                <ul role="menu">
-                  <li>
-                    <a href="index2.html">登录</a></li>
-                  <li>
-                    <a href="joinus.html">注册</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="dropdown dropdown-hover dropdown-cart">
-              <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                <i class="glyphicon glyphicon-globe"></i>
-              </a>
-              <div class="dropdown-menu" style="width: 300px;">
-                <div class="row youplay-side-news">
-                  <div class="col-xs-3 col-md-4">
-                    <a href="#" class="angled-img">
-                      <div class="img">
-                        <img src="static/picture/cn.png" alt=""></div>
-                    </a>
-                  </div>
-                  <div class="col-xs-9 col-md-8">
-                    <h4 class="ellipsis">
-                      <a id="translateLink" href="javascript:translatePage();">繁体中文</a></h4>
-                    <span class="quantity">CHN</span></div>
+            <div class="dropdown-menu" style="width: 300px;">
+              <div class="row youplay-side-news">
+                <div class="col-xs-3 col-md-4">
+                  <a href="#" class="angled-img">
+                    <div class="img">
+                      <img src="static/picture/cn.png" alt="">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-9 col-md-8">
+                  <h4 class="ellipsis">
+                    <a id="translateLink" href="javascript:translatePage();">繁体中文</a>
+                  </h4>
+                  <span class="quantity">CHN</span>
                 </div>
               </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- /Navbar -->
-    <section class="content-wrap">
-      <section class="youplay-banner banner-top youplay-banner-parallax">
-        <div class="image" style="background-image:url('static/image/banner-bg.jpg')"></div>
-        <div class="info">
-          <div>
-            <div class="container">
-              <h1>VBPIXEL服务器</h1>
-              <em>"一个新时代的我的世界服务器,服务器进步从未停滞"</em>
-              <br>
-              <br>
-              <br>
-              <!--<button class="btn btn-lg" data-clipboard-demo data-clipboard-action=copy data-clipboard-text=play.skpx.me>play.skpx.me (点我复制)</button>-->
-              <a href="joinus.html">
-                <button class="btn btn-lg">加入VBPIXEL</button></a>
-              <h5>与其他玩家一起游戏</h5>
-              <script src="static/js/clip.js" async='async'></script>
-              <script src="static/js/success.js" async='async'></script>
-              <script src="static/js/tt.js" async='async'></script>
             </div>
-          </div>
-        </div>
-      </section>
-      <h2 class="container h1">关于我们</h2>
-      <section class="youplay-features container">
-        <div class="col-md-3 col-sm-6">
-          <a class="feature angled-bg">
-            <i class="fa fa-thumbs-up"></i>
-            <h3>负责的管理团队</h3>
-            <small>时刻准备着处理服务器的问题</small></a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="feature angled-bg">
-            <i class="fa fa-gamepad"></i>
-            <h3>多种服务器玩法</h3>
-            <small>让你体验到真正的群组服务器</small></div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="feature angled-bg">
-            <i class="fa fa-fast-forward"></i>
-            <h3>高端的网络穿透</h3>
-            <small>采用了高端网络穿透保证游戏流畅</small></div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="feature angled-bg">
-            <i class="fa fa-users"></i>
-            <h3>业余开服团队</h3>
-            <small>尽力给您最好的体验</small></div>
-        </div>
-      </section>
-      <div class="h2"></div>
-      <section class="youplay-banner youplay-banner-parallax small">
-        <div class="image" style="background-image:url('static/image/banner-bg.jpg')"></div>
-        <div class="info container align-center">
-          <div>
-            <h2>VBPIXEL:
-              <br>新时代MC</h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navbar -->
+  <section class="content-wrap">
+    <section class="youplay-banner banner-top youplay-banner-parallax">
+      <div class="image" style="background-image:url('static/image/banner-bg.jpg')"></div>
+      <div class="info">
+        <div>
+          <div class="container">
+            <h1>VBPIXEL服务器</h1>
+            <em>"一个新时代的我的世界服务器,服务器进步从未停滞"</em>
             <br>
             <br>
-            <!--<button class="btn btn-lg" data-clipboard-demo data-clipboard-action=copy data-clipboard-text=play.skpx.me>现在加入服务器！ (点我复制)</button>-->
+            <br>
+            <!--<button class="btn btn-lg" data-clipboard-demo data-clipboard-action=copy data-clipboard-text=play.skpx.me>play.skpx.me (点我复制)</button>-->
             <a href="joinus.html">
               <button class="btn btn-lg">加入VBPIXEL</button></a>
+            <h5>与其他玩家一起游戏</h5>
+            <script src="static/js/clip.js" async='async'></script>
+            <script src="static/js/success.js" async='async'></script>
+            <script src="static/js/tt.js" async='async'></script>
           </div>
         </div>
-      </section>
-      <h2 class="container h1">服务器管理人员</h2>
-      <div class="youplay-carousel" style="background-color:#0c0424">
-        <a class="angled-img" href="#!">
-          <div class="img img-offset">
-            <img src="static/picture/CRV650F_QAQ.png" alt=""></div>
-          <div class="bottom-info">
-            <h4>CRV650F_QAQ</h4>
-            <div class="row">
-              <div class="col-xs-6">
-                <p>至高无上的服主</p>
-              </div>
-              <div class="col-xs-6"></div>
-            </div>
-          </div>
-        </a>
-        <a class="angled-img" href="#!">
-          <div class="img img-offset">
-            <img src="static/picture/ASKLL
-.png" alt=""></div>
-          <div class="bottom-info">
-            <h4>ASKLL
-</h4>
-            <div class="row">
-              <div class="col-xs-6">
-                <p>服务器捐款人员
-		   官网运维人员</p>
-              </div>
-              <div class="col-xs-6">
-                <p></p>
-              </div>
-            </div>
-          </div>
-        </a>
-       </div>
-      <h2 class="container h1">VBPIXEL公告</h2>
-      <section class="youplay-news container">
-        <div class="news-one">
-          <div class="row vertical-gutter">
-            <div class="col-md-4">
-              <a href="" class="angled-img">
-                <div class="img">
-                  <img src="static/picture/blog_pic.jpg" alt=""></div>
-              </a>
-            </div>
-            <div class="col-md-8">
-              <div class="clearfix">
-                <h3 class="h2 pull-left m-0">
-                  <a href="">欢迎来到VBPIXEL官网!</a></h3>
-              </div>
-              <div class="description">
-                <p>请认准VBPIXEL官方网站</p>
-              </div>
-              </div>
-          </div>
-        </div>
-        <div class="news-one">
-          <div class="row vertical-gutter">
-            <div class="col-md-4">
-              <a href="" class="angled-img">
-                <div class="img">
-                  <img src="static/picture/blog_pic.jpg" alt=""></div>
-              </a>
-            </div>
-            <div class="col-md-8">
-              <div class="clearfix">
-                <h3 class="h2 pull-left m-0">
-                  <a href="">服务器新增功能</a></h3>
-              </div>
-              <div class="description">
-                <p>2022/9/4 更新皮肤显示</p>
-              </div>
-              </div>
-          </div>
-        </div>
-      <div>
-             </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="youplay-footer-parallax">
-        <script type="text/javascript" src="static/js/tw_cn.js"></script>
-        <script type="text/javascript">var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
-          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
-          var cookieDomain = "https://www.skpx.me/"; //Cookie地址, 一定要设定, 通常为你的网址
-          var msgToTraditionalChinese = "中文繁體"; //此处可以更改为你想要显示的文字
-          var msgToSimplifiedChinese = "中文简体"; //同上，但两处均不建议更改
-          var translateButtonId = "translateLink"; //默认互换id
-          translateInitilization();</script>
-        <link rel="stylesheet" href="static/css/all.min.css">
-        <div class="wrapper" style="background-image:url('static/image/banner-bakg.jpg')">
-          <div class="social">
-            <div class="container">
-              <h3>查看
-                <strong>我们</strong>的公众账号</h3>
-              <div class="social-icons">
-                </div>
-                <div class="social-icon">
-                  <a href='https://qm.qq.com/cgi-bin/qm/qr?k=b4g0wGMneXYp0ZSXz08g__-X-yp3aqli&authKey=87ekd77gFFnyycNYYtnOiD+/ZReWAPsOFpVm6vaNIJ2VM9rf8qfC/cVpOycRP9vw&noverify=0&personal_qrcode_source=0'>
-                    <i class="fab fa-qq"></i>
-                    <span>加入我们的官方QQ群</span></a>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="copyright">
-            <div class="container">
-              <!-- <a href="https://www.LXH5068.com" target="_blank"><img height="31" width="88" src="./CDiK6kw7p6M46RpFlVRT.png" alt="CDiK6kw7p6M46RpFlVRT.png" title="CDiK6kw7p6M46RpFlVRT.png" /></a>-->
-              <!-- Automated remove, Reason: Didn't found "www.skpx.me" in website=> www.i8mc.cn -->
-              <br>
-              <strong>VBPIXEL Networks</strong>&copy; 2022-2022. All rights reserved</div></div>
-        </div>
-      </footer>
+      </div>
     </section>
-    <script type="text/javascript" src="static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="static/js/jquery.hexagonprogress.min.js"></script>
-    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="static/js/jarallax.min.js"></script>
-    <!-- <script type=text/javascript src=static/js/SmoothScroll.js></script> -->
-    <script type="text/javascript" src="static/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="static/js/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="static/js/moment.min.js"></script>
-    <script type="text/javascript" src="static/js/moment-timezone-with-data.min.js"></script>
-    <script type="text/javascript" src="static/js/youplay.min.js"></script>
-    <script>if (typeof youplay !== "undefined") {
-        youplay.init({
-          parallax: true,
-          navbarSmall: false,
-          fadeBetweenPages: true,
-          php: {
-            twitter: "./php/twitter/tweet.php",
-            instagram: "./php/instagram/instagram.php"
-          }
-        })
-      }</script>
-    <script type="text/javascript">$(".countdown").each(function() {
-        var b = $(this).attr("data-timezone");
-        var a = $(this).attr("data-end");
-        a = moment.tz(a, b).toDate();
-        $(this).countdown(a,
-        function(c) {
+    <h2 class="container h1">关于我们</h2>
+    <section class="youplay-features container">
+      <div class="col-md-3 col-sm-6">
+        <a class="feature angled-bg">
+          <i class="fa fa-thumbs-up"></i>
+          <h3>负责的管理团队</h3>
+          <small>时刻准备着处理服务器的问题</small>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="feature angled-bg">
+          <i class="fa fa-gamepad"></i>
+          <h3>多种服务器玩法</h3>
+          <small>让你体验到真正的群组服务器</small>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="feature angled-bg">
+          <i class="fa fa-fast-forward"></i>
+          <h3>高端的网络穿透</h3>
+          <small>采用了高端网络穿透保证游戏流畅</small>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="feature angled-bg">
+          <i class="fa fa-users"></i>
+          <h3>业余开服团队</h3>
+          <small>尽力给您最好的体验</small>
+        </div>
+      </div>
+    </section>
+    <div class="h2"></div>
+    <section class="youplay-banner youplay-banner-parallax small">
+      <div class="image" style="background-image:url('static/image/banner-bg.jpg')"></div>
+      <div class="info container align-center">
+        <div>
+          <h2>VBPIXEL:
+            <br>新时代MC
+          </h2>
+          <br>
+          <br>
+          <!--<button class="btn btn-lg" data-clipboard-demo data-clipboard-action=copy data-clipboard-text=play.skpx.me>现在加入服务器！ (点我复制)</button>-->
+          <a href="joinus.html">
+            <button class="btn btn-lg">加入VBPIXEL</button></a>
+        </div>
+      </div>
+    </section>
+    <h2 class="container h1">服务器管理人员</h2>
+    <div class="youplay-carousel" style="background-color:#0c0424">
+      <a class="angled-img" href="#!">
+        <div class="img img-offset">
+          <img src="static/picture/CRV650F_QAQ.png" alt="">
+        </div>
+        <div class="bottom-info">
+          <h4>CRV650F_QAQ</h4>
+          <div class="row">
+            <div class="col-xs-6">
+              <p>至高无上的服主</p>
+            </div>
+            <div class="col-xs-6"></div>
+          </div>
+        </div>
+      </a>
+      <a class="angled-img" href="#!">
+        <div class="img img-offset">
+          <img src="static/picture/ASKLL.png" alt="">
+        </div>
+        <div class="bottom-info">
+          <h4>ASKLL
+          </h4>
+          <div class="row">
+            <div class="col-xs-6">
+              <p>服务器捐款人员
+                官网运维人员</p>
+            </div>
+            <div class="col-xs-6">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <h2 class="container h1">VBPIXEL公告</h2>
+    <section class="youplay-news container">
+      <div class="news-one">
+        <div class="row vertical-gutter">
+          <div class="col-md-4">
+            <a href="" class="angled-img">
+              <div class="img">
+                <img src="static/picture/blog_pic.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="clearfix">
+              <h3 class="h2 pull-left m-0">
+                <a href="">欢迎来到VBPIXEL官网!</a>
+              </h3>
+            </div>
+            <div class="description">
+              <p>请认准VBPIXEL官方网站</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="news-one">
+        <div class="row vertical-gutter">
+          <div class="col-md-4">
+            <a href="" class="angled-img">
+              <div class="img">
+                <img src="static/picture/blog_pic.jpg" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="clearfix">
+              <h3 class="h2 pull-left m-0">
+                <a href="">服务器新增功能</a>
+              </h3>
+            </div>
+            <div class="description">
+              <p>2022/9/4 更新皮肤显示</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <footer class="youplay-footer-parallax">
+      <script type="text/javascript" src="static/js/tw_cn.js"></script>
+      <script type="text/javascript">var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+        var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+        var cookieDomain = "https://www.skpx.me/"; //Cookie地址, 一定要设定, 通常为你的网址
+        var msgToTraditionalChinese = "中文繁體"; //此处可以更改为你想要显示的文字
+        var msgToSimplifiedChinese = "中文简体"; //同上，但两处均不建议更改
+        var translateButtonId = "translateLink"; //默认互换id
+        translateInitilization();</script>
+      <link rel="stylesheet" href="static/css/all.min.css">
+      <div class="wrapper" style="background-image:url('static/image/banner-bakg.jpg')">
+        <div class="social">
+          <div class="container">
+            <h3>查看
+              <strong>我们</strong>的公众账号
+            </h3>
+            <div class="social-icons">
+            </div>
+            <div class="social-icon">
+              <a
+                href='https://qm.qq.com/cgi-bin/qm/qr?k=b4g0wGMneXYp0ZSXz08g__-X-yp3aqli&authKey=87ekd77gFFnyycNYYtnOiD+/ZReWAPsOFpVm6vaNIJ2VM9rf8qfC/cVpOycRP9vw&noverify=0&personal_qrcode_source=0'>
+                <i class="fab fa-qq"></i>
+                <span>加入我们的官方QQ群</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <!-- <a href="https://www.LXH5068.com" target="_blank"><img height="31" width="88" src="./CDiK6kw7p6M46RpFlVRT.png" alt="CDiK6kw7p6M46RpFlVRT.png" title="CDiK6kw7p6M46RpFlVRT.png" /></a>-->
+          <!-- Automated remove, Reason: Didn't found "www.skpx.me" in website=> www.i8mc.cn -->
+          <br>
+          <strong>VBPIXEL Networks</strong>&copy; 2022-2022. All rights reserved
+        </div>
+      </div>
+      </div>
+    </footer>
+  </section>
+  <script type="text/javascript" src="static/js/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/jquery.hexagonprogress.min.js"></script>
+  <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="static/js/jarallax.min.js"></script>
+  <!-- <script type=text/javascript src=static/js/SmoothScroll.js></script> -->
+  <script type="text/javascript" src="static/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="static/js/jquery.countdown.min.js"></script>
+  <script type="text/javascript" src="static/js/moment.min.js"></script>
+  <script type="text/javascript" src="static/js/moment-timezone-with-data.min.js"></script>
+  <script type="text/javascript" src="static/js/youplay.min.js"></script>
+  <script>if (typeof youplay !== "undefined") {
+      youplay.init({
+        parallax: true,
+        navbarSmall: false,
+        fadeBetweenPages: true,
+        php: {
+          twitter: "./php/twitter/tweet.php",
+          instagram: "./php/instagram/instagram.php"
+        }
+      })
+    }</script>
+  <script type="text/javascript">$(".countdown").each(function () {
+      var b = $(this).attr("data-timezone");
+      var a = $(this).attr("data-end");
+      a = moment.tz(a, b).toDate();
+      $(this).countdown(a,
+        function (c) {
           $(this).text(c.strftime("%D 天 %H:%M:%S"))
         })
-      });</script>
-    <!--CSS From Header--></body>
-  <script>console.clear;
-    console.log("%c-----------VBPIXEL-----------\n\n\n\n\n%c恭喜你喜提彩蛋！ 如果你对我的世界感兴趣，请加群联系我们\n\n\n\n\n%c-----------VBPIXEL-----------", "color:blue", "color:red", "color:blue")</script>
+    });</script>
+  <!--CSS From Header-->
+</body>
+<script>console.clear;
+  console.log("%c-----------VBPIXEL-----------\n\n\n\n\n%c恭喜你喜提彩蛋！ 如果你对我的世界感兴趣，请加群联系我们\n\n\n\n\n%c-----------VBPIXEL-----------", "color:blue", "color:red", "color:blue")</script>
 
 </html>
